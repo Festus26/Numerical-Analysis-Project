@@ -1,0 +1,23 @@
+# Exclude everything by default
+*
+
+# Include .c files
+!*.c
+
+# Include README
+!README.md
+
+# Include .gitignore itself
+!.gitignore
+
+# Exclude compiled object files and executables
+*.o
+*.out
+*.exe
+a.out
+
+# Exclude system files
+.DS_Store
+*.swp
+*.swo
+*~
